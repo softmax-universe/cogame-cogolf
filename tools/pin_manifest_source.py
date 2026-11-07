@@ -36,7 +36,7 @@ def main() -> None:
         ["git", "rev-parse", "HEAD"], cwd=root, text=True
     ).strip()
     manifest = CoworldManifest.model_validate_json(args.manifest.read_text())
-    source = f"https://github.com/Metta-AI/cogame-cogolf/tree/{revision}"
+    source = f"https://github.com/softmax-universe/cogame-cogolf/tree/{revision}"
     manifest.game.runnable.source_url = source
     for player in manifest.player:
         player.source_url = source + "/players"
