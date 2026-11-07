@@ -20,7 +20,7 @@
       "run": [
         "/bin/cogolf"
       ],
-      "source_url": "https://github.com/Metta-AI/cogame-cogolf/tree/main",
+      "source_url": "https://github.com/softmax-universe/cogame-cogolf/tree/main",
       "resources": {
         "requests": {
           "cpu": "2",
@@ -436,17 +436,17 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-cogolf/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-cogolf/blob/main/docs/PROTOCOL.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-cogolf/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-cogolf/blob/main/docs/PROTOCOL.md"
       }
     },
     "docs": {
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-cogolf/blob/main/README.md"
+        "value": "https://github.com/softmax-universe/cogame-cogolf/blob/main/README.md"
       },
       "pages": [
         {
@@ -454,7 +454,7 @@
           "title": "Rules & submission contract",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/cogame-cogolf/blob/main/docs/RULES.md"
+            "value": "https://github.com/softmax-universe/cogame-cogolf/blob/main/docs/RULES.md"
           }
         },
         {
@@ -462,7 +462,7 @@
           "title": "Replay format",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/cogame-cogolf/blob/main/docs/REPLAY.md"
+            "value": "https://github.com/softmax-universe/cogame-cogolf/blob/main/docs/REPLAY.md"
           }
         }
       ]
@@ -481,7 +481,7 @@
       "env": {
         "PLAYER_SCRIPTED": "literalist"
       },
-      "source_url": "https://github.com/Metta-AI/cogame-cogolf/tree/main/players",
+      "source_url": "https://github.com/softmax-universe/cogame-cogolf/tree/main/players",
       "resources": {
         "requests": {
           "cpu": "250m",
@@ -504,7 +504,7 @@
       "env": {
         "PLAYER_SCRIPTED": "pedant"
       },
-      "source_url": "https://github.com/Metta-AI/cogame-cogolf/tree/main/players",
+      "source_url": "https://github.com/softmax-universe/cogame-cogolf/tree/main/players",
       "resources": {
         "requests": {
           "cpu": "250m",
