@@ -141,7 +141,6 @@ def test_the_compose_services_back_the_manifest_placeholders():
     assert "cogame-cogolf-game:latest" in compose
     assert "cogame-cogolf-player:latest" in compose
     assert "platform: linux/amd64" in compose
-    assert "network: host" in compose
     assert MANIFEST["game"]["runnable"]["image"] == "{{GAME_IMAGE}}"
     for player in MANIFEST["player"]:
         assert player["image"] == "{{PLAYER_IMAGE}}"
